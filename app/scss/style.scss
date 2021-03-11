@@ -43,7 +43,7 @@ p {
         align-items: flex-start;
         width: 100%;
         label {
-            margin: 4em 2em;
+            margin: 3.4em 2em;
             padding-right: 5em;
             display: flex;
         }
@@ -65,7 +65,7 @@ p {
             display: flex;
             li {
                 list-style: none;
-                margin: 4em auto;
+                margin: 3em auto;
                 padding-right: 3em;
                 a {
                     text-decoration: none;
@@ -212,6 +212,7 @@ p {
                 align-items: center;
                 background-color: $white;
                 transform: translateY(-150%);
+                padding-right: 1.5em;
                 li {
                     margin: 0;
                     padding: 0;
@@ -244,11 +245,5 @@ p {
                 }
             }
         }
-    }
-}
-@media screen and (max-width: 380px) {
-    div.wrapper1.w1r1.nav-links{
-        padding-right: 1.5em;
-        height: 23%;
     }
 }

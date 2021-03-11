@@ -68,7 +68,7 @@ p {
 }
 
 .w1r1 nav label {
-  margin: 4em 2em;
+  margin: 3.4em 2em;
   padding-right: 5em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -98,7 +98,7 @@ p {
 
 .w1r1 nav ul li {
   list-style: none;
-  margin: 4em auto;
+  margin: 3em auto;
   padding-right: 3em;
 }
 
@@ -302,6 +302,7 @@ p {
     background-color: white;
     -webkit-transform: translateY(-150%);
             transform: translateY(-150%);
+    padding-right: 1.5em;
   }
   div.w1r1 nav .nav-links li {
     margin: 0;
@@ -334,13 +335,6 @@ p {
     top: 24px;
     -webkit-transform: rotate(-40deg);
             transform: rotate(-40deg);
-  }
-}
-
-@media screen and (max-width: 380px) {
-  div.wrapper1.w1r1.nav-links {
-    padding-right: 1.5em;
-    height: 23%;
   }
 }
 /*# sourceMappingURL=style.css.map */
