@@ -1,6 +1,7 @@
 const navSlide = () => {
-    const burger = document.querySelector('.burger');
-    const nav = document.querySelector('.nav-links');
+    const burger   = document.querySelector('.burger');
+    const nav      = document.querySelector('nav')
+    const navlinks = document.querySelector('.nav-links');
 
     burger.addEventListener('click', () => {
         //Toggle Nav
@@ -10,14 +11,19 @@ const navSlide = () => {
         else {
             burger.classList.add('open');
         }
-        if(nav.classList.contains('nav-active')){
-            nav.classList.remove('nav-active')
+        if(navlinks.classList.contains('nav-active')){
+            navlinks.classList.remove('nav-active')
         }
         else {
-            nav.classList.add('nav-active')
+            navlinks.classList.add('nav-active')
+        }
+        if(nav.classList.contains('overlay')){
+            nav.classList.remove('overlay')
+        }
+        else {
+            nav.classList.add('overlay')
         }
     })
 }
     
-
 navSlide();
